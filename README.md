@@ -14,14 +14,18 @@ O objetivo é criar uma interface gráfica para o Jogo da Velha e implementar ag
 
 ## 📂 Estrutura do Projeto
 
+Os códigos fonte estão organizados dentro da pasta `src`:
+
 ```bash
 Competicao-de-Algoritmos-de-Busca/
-├── Interface.py         # Gerenciamento da interface gráfica (GUI)
-├── JogadorIA.py         # Implementação dos agentes inteligentes (Algoritmos)
-├── JogoDaVelha.py       # Lógica principal do jogo (regras, tabuleiro)
-├── main.py              # Arquivo principal para execução
-├── Relatório...pdf      # Análise dos resultados obtidos
-└── README.md            # Documentação
+├── src/
+│   ├── Interface.py         # Gerenciamento da interface gráfica (GUI)
+│   ├── JogadorIA.py         # Implementação dos agentes inteligentes (Algoritmos)
+│   ├── JogoDaVelha.py       # Lógica principal do jogo (regras, tabuleiro)
+│   └── main.py              # Arquivo principal para execução
+├── Relatório...pdf          # Análise dos resultados obtidos
+├── TrabalhoBusca2025.pdf    # Enunciado do trabalho
+└── README.md                # Documentação
 ```
 
 ## 🚀 Como Executar
@@ -32,18 +36,19 @@ Certifique-se de ter o **Python 3** instalado em sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git
+    git clone [https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git](https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git)
     cd Competicao-de-Algoritmos-de-Busca
     ```
 
 2.  **Execute o jogo:**
+    Como os arquivos estão em `src`, você deve navegar até lá ou executar referenciando o caminho.
     * **Linux/Mac:**
         ```bash
-        python3 main.py
+        python3 src/main.py
         ```
     * **Windows:**
         ```bash
-        python main.py
+        python src/main.py
         ```
 
 3.  **Interaja:**
