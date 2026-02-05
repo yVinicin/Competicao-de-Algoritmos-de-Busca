@@ -36,7 +36,7 @@ Certifique-se de ter o **Python 3** instalado em sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git](https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git)
+    git clone https://github.com/yVinicin/Competicao-de-Algoritmos-de-Busca.git
     cd Competicao-de-Algoritmos-de-Busca
     ```
 
